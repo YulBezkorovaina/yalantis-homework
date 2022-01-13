@@ -6,26 +6,31 @@ if __name__ == "__main__":
     print(dir(a))
 
     #methods STR
-    S = "Hello my teacher!"
+    S:str; S = "Hello my teacher!"
     print(S.isupper())
-    S1 = S.upper()
+    S1 : str = S.upper()
     print(S1.isupper())
     print(S)
     print(S.find("my"))
     print(S.split(" "))
 
-    #methods dict
-    d = {'d' : 1, 'b' : 2, 'a' : 3}
+    #methods dict lesson_1_taks
+    d : dict = {'d' : 1, 'b' : 2, 'a' : 3}
     print(d)
     print(d.get('a'))
     print(d['b'])
     print(d.keys())
 
+<<<<<<< HEAD
     #methods list
 <<<<<<< HEAD
     
 =======
     l = ['abc', 'def', '123', '456', 'ad1', 'be4']
+=======
+    #methods list  lesson_1_taks
+    l : list = ['abc', 'def', '123', '456', 'ad1', 'be4']
+>>>>>>> lesson_1_task
     print(l)
     l.pop(1)
     print(l)
@@ -34,6 +39,22 @@ if __name__ == "__main__":
     l.reverse()
     print(l)
 >>>>>>> lesson_1
+
+    #methods set  lesson_1
+    s : set = set(S)
+    print(s)
+    print(len(s))
+    s1 : set = set("abcdef")
+    print(s1)
+    s2 : set = s.union(s1)
+    print(s2)
+
+    #methods tuple  lesson_1
+    t : tuple = s2
+    print(t)
+    print(t.intersection('e'))
+    t1 = tuple("aqwasetghj")
+    print(t1)
 
 
 
