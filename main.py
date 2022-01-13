@@ -15,6 +15,16 @@ if __name__ == "__main__":
     print(S.split(" "))
 
     #methods dict
+    d = {'d' : 1, 'b' : 2, 'a' : 3}
+    print(d)
+    print(d.get('a'))
+    print(d['b'])
+    print(d.keys())
+
+    #methods list
+    
+
+
 
 
 
