@@ -22,7 +22,18 @@ if __name__ == "__main__":
     print(d.keys())
 
     #methods list
+<<<<<<< HEAD
     
+=======
+    l = ['abc', 'def', '123', '456', 'ad1', 'be4']
+    print(l)
+    l.pop(1)
+    print(l)
+    l.sort()
+    print(l)
+    l.reverse()
+    print(l)
+>>>>>>> lesson_1
 
 
 
